@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="srm-wrapper">
+      <div class="menu">
+        <div class="menu__title">
+          <img src="./img/setting 1.png" alt="" />
+          <h1>Dashboard <span>v.01</span>          <span class="menu__title--arrow">⌄</span></h1>
+
+        </div>
+
+        <nav class="menu__nav">
+         
+          <ul class="menu__nav-list">
+            <li  class="menu__nav-item">
+              <img src="./img/key-square.png" alt="" />
+              <a class="menu__nav-link" href="#"> Dashboard</a>
+            <span class="arrow"> &#10095</span> 
+            </li>
+            <li class="menu__nav-item">
+              <img src="./img/3d-square 1.png" alt="" />
+              <a class="menu__nav-link" href="#"> Product</a>
+            </li>
+            <li class="menu__nav-item--active">
+              <img class="test" src="./img/3d-square 1.png" alt="" />
+              <a class="menu__nav-link" href="#">Customers   </a>
+              <span class="arrow"> &#10095</span> 
+            
+            </li>
+            <li class="menu__nav-item">
+              <img src="./img/wallet-money 2.png" alt="" />
+              <a class="menu__nav-link" href="#"> Income</a>
+              <span class="arrow"> &#10095</span> 
+            </li>
+            <li class="menu__nav-item">
+              <img src="./img/discount-shape 1.png" alt="" />
+              <a class="menu__nav-link" href="#"> Promote</a>
+              <span class="arrow"> &#10095</span> 
+            </li>
+            <li class="menu__nav-item">
+              <img src="./img/message-question 1.png" alt="" />
+              <a class="menu__nav-link" href="#"> Help</a>
+              <span class="arrow"> &#10095</span> 
+            </li>
+          </ul>
+        </nav>
+        <div class="menu__userInfo">
+          <img src="./img/Ellipse 8.png" alt="" />
+          <span>
+            <h2 class="menu__userInfo-name">Evano</h2>
+            <p class="menu__userInfo-position">Project Manager</p>
+          </span>
+        </div>
+      </div>
+
+      <main>
+        <h2 class="title">Hello Evano 👋🏼,</h2>
+        <div class="customers-page">
+          <div class="customers-page__header">
+            <div class="name">
+              <h2>All Customers</h2>
+              <p>Active Members</p>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="search" />
+            </div>
+          </div>
+          <div class="customers-page__table">
+            <table>
+              <tbody>  
+              <tr class="table-head">
+                <td>Customer Name</td>
+                <td>Company</td>
+                <td>Phone Number</td>
+                <td>Email</td>
+                <td>Country</td>
+                <td>Status</td>
+              </tr>
+              <tr class="table-data">
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td class="button"><span class="active">active</span></td>
+              </tr>
+               <tr>
+              <td>Floyd Miles</td>
+                <td>Yahoo</td>
+                <td>(205) 555-0100</td>
+                <td>floyd@yahoo.com</td>
+                <td>Kiribati</td>
+                <td class="button"><span class="inactive">inactive</span></td>
+              </tr>
+               <tr>
+              <td>Ronald Richards</td>
+                <td>Adobe</td>
+                <td>(302) 555-0107</td>
+                <td>ronald@adobe.com</td>
+                <td>Israel</td>
+                <td class="button"><span class="inactive">inactive</span></td>
+              </tr>
+               <tr>
+              <td>Marvin McKinney</td>
+                <td>Tesla</td>
+                <td>(252) 555-0126</td>
+                <td>marvin@tesla.com</td>
+                <td>Iran</td>
+                <td class="button"><span class="active">active</span></td>
+              </tr>
+               <tr>
+              <td>Jerome Bell</td>
+                <td>Google</td>
+                <td>(629) 555-0129</td>
+                <td>jerome@google.com</td>
+                <td>Réunion</td>
+                <td class="button"><span class="active">active</span></td>
+              </tr>
+               <tr>
+              <td>Kathryn Murphy</td>
+                <td>Microsoft</td>
+                <td>(406) 555-0120</td>
+                <td>kathryn@microsoft.com</td>
+                <td>Curaçao</td>
+                <td class="button"><span class="active">active</span></td>
+              </tr>
+               <tr>
+              <td>Jacob Jones</td>
+                <td>Yahoo</td>
+                <td>(208) 555-0112</td>
+                <td>jacob@yahoo.com</td>
+                <td>Brazil</td>
+                <td class="button"><span class="active">active</span></td>
+              </tr>
+               <tr>
+              <td> Kristin Watson</td>
+                <td>Facebook</td>
+                <td>(704) 555-0127</td>
+                <td>kristin@facebook.com</td>
+                <td>Åland Islands</td>
+                <td class="button"><span class="inactive">inactive</span></td>
+              </tr>
+              </tbody>
+            
+           
+            </table>
+          </div>
+          <div class="customers-page__footer">
+            <div>Showing data 1 to 8 of 256K entries</div>
+            <div class="button-list">
+              <button>&#60</span>
+              <button class="button-list__active">1</button>
+              <button>2</button>
+              <button>3</button>
+              <button>4</button>
+              ...
+              <button>40</button>
+              <button>&#62</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
